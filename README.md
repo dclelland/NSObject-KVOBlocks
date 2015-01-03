@@ -1,7 +1,7 @@
 NSObject-KVOBlocks
 ==================
 
-Really basic Block-based KVO using associated objects. Based on Stephan Leroux's [KVO-Blocks](https://github.com/sleroux/KVO-Blocks) pod.
+Real basic block-based KVO using associated objects. Based on Stephan Leroux's [KVO-Blocks](https://github.com/sleroux/KVO-Blocks) pod.
 
 Subscribes to `NSKeyValueObservingOptionNew` and `NSKeyValueObservingOptionOld` with a nil context.
 
