@@ -10,7 +10,7 @@ Subscribes to `NSKeyValueObservingOptionNew` and `NSKeyValueObservingOptionOld` 
     [self.object setObserverBlock^(NSDictionary *change) {
         NSLog(@"old value: %@", change[NSKeyValueChangeOldKey]);
         NSLog(@"new value: %@", change[NSKeyValueChangeNewKey]);
-    } forKeyPath:NSStringFromSelector(@selector(aSelector))];]
+    } forKeyPath:NSStringFromSelector(@selector(aSelector))];
 
 ✓ Remove a block!
 
